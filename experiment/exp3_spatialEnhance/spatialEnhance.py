@@ -92,4 +92,4 @@ if __name__ == '__main__':
     # laplace operator
     dst = cv2.Laplacian(gray_img, cv2.CV_16S, ksize=3)
     laplace = cv2.convertScaleAbs(dst)
-    cv2.imwrite('./out/laplace.png', sobel)
+    cv2.imwrite('./out/laplace.png', laplace)
